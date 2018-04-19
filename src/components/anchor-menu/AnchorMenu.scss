@@ -1,0 +1,16 @@
+.anchor-menu {
+
+  &__menu {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  &__menu-item {
+    padding: 0 15px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
