@@ -1,0 +1,11 @@
+.ui-menu-item {
+  padding: 0 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--active {
+    color: blue;
+  }
+}

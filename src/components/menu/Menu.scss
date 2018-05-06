@@ -1,0 +1,14 @@
+.ui-menu {
+  display: flex;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  background-color: #fff;
+  list-style: none;
+  line-height: 30px;
+
+  &--sticky {
+    position: sticky;
+    top: 0;
+  }
+}
